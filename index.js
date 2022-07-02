@@ -13,3 +13,16 @@ $(document).ready(function(){
         }
     })
 })
+
+$(document).ready(function(){
+    $("#fadetoggle").click(function(){
+        $(".fadetoggle").fadeToggle();
+    })
+})
+
+$(document).ready(function(){
+    $("#fadeto").click(function(){
+        $(".fadeto").fadeTo("slow", 0.2);
+        $(".fadeto").fadeTo("slow", 1);
+    })
+})

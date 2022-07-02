@@ -14,6 +14,7 @@
     <div class="main">
         <div class="div1">
             <div>
+                <h3>Fade In and Fade Out</h3>
                 <p class="fadeout" value = "in">
                     The fadeIn() method is used to fade in hidden elements.
                     fadeOut() method is used to fade out elements that are displayed.
@@ -26,24 +27,27 @@
                 <button id="fadein">Fade In Hidden Text</button>
                 <p class="fadein" style="display: none;">
                     This is hidden initially. With the fadeIn() method, we get to see it.
+                    Reload the page to use this method again!
                 </p> 
             </div>
         </div>
         <div class="div2">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Temporibus, officiis. Ullam harum aut culpa perferendis excepturi at tenetur vitae 
-                vel laborum delectus? Perferendis accusantium, provident iure impedit et possimus eos!
+            <h3>Fade Toggle Method</h3>
+            <p class="fadetoggle">
+                fadeToggle() method toggles between fadeIn() and fadeOut() methods. If the elements are
+                faded out, fadeToggle() will fade them in. Else if the elements are fade in, the 
+                fadeToggle() method will fade them out.
             </p>
-            <button>No functionality yet</button>
+            <button id="fadetoggle">Fade Toggle</button>
         </div>
         <div class="div3">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Magnam quibusdam aliquid enim facilis. Non quaerat illo, natus, hic nostrum 
-                eum impedit aliquam quasi saepe dolores voluptate delectus, et ut cum.
+            <h3>Fade To Method</h3>
+            <p class="fadeto">
+                jQuery fadeTo() method allows fading to a given opacity i.e. between 0 and 1.
+                Use the button below to experiment with fadeTo().
+                In this implementation, the text fades to opacity 0.2 and then back to 1.
             </p>
-            <button>No functionality yet</button>
+            <button id="fadeto">Fade To</button>
         </div>
     </div> 
     
