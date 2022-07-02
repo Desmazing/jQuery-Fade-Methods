@@ -6,6 +6,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#fadein").click(function(){
-        (".fadein").fadeIn();
+        $(".fadein").fadeIn();
     })
 })
