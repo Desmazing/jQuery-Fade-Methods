@@ -95,3 +95,6 @@ body .main .slide{
     left: 20%;
     border-radius: 25px;
 }
+body .main .slide .close:hover{
+    cursor: pointer;
+}
