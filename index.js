@@ -26,3 +26,13 @@ $(document).ready(function(){
         $(".fadeto").fadeTo("slow", 1);
     })
 })
+$(document).ready(function(){
+    $("#slided").click(function(){
+        $(".slide").slideDown('fast');
+    })
+})
+$(document).ready(function(){
+    $(".close").click(function(){
+        $(".slide").slideUp('fast');
+    })
+})
