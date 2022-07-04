@@ -36,3 +36,8 @@ $(document).ready(function(){
         $(".slide").slideUp('fast');
     })
 })
+$(document).ready(function(){
+    $("#toggle").click(function(){
+        $(".slide").slideToggle();
+    })
+})

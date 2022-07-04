@@ -74,6 +74,18 @@ body .main button{
     align-items: center;
     justify-content: center;
 }
+#toggle {
+    padding: 10px;
+    width: 200px;
+    background: rgb(235, 232, 232);
+    border-radius: 25px;
+    border: 1px solid cyan;
+    box-shadow: inset 2px 2px 2px 2px black, 0 0 2px 2px cyan;
+    filter: brightness(0.8);
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
 body .main button:hover{
     cursor: pointer;
     filter: brightness(1.1);
